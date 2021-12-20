@@ -6,99 +6,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,500;1,400&display=swap"
         rel="stylesheet">
 </head>
 
-<body>
+<body> 
     <!--Шапка нашего сайта-->
-    <header>
+    <header class="page-header">
         <!--Навигация-->
         <nav>
-            <a href=""> WebStudio</a>
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="http://127.0.0.1:5500/portfolio.html">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+            <a class="header-logo link" href=""><span class="title-first-word">Web</span>Studio</a>
+            <ul class="header-nav list">
+                <li class="header-nav-list"><a class="header-link link" href="">Студия</a></li>
+                <li class="header-nav-list"><a class="header-link link" href="">Портфолио</a></li>
+                <li class="header-nav-list"><a class="header-link link" href="">Контакты</a></li>
             </ul>
         </nav>
         <!--Ссылка на почту и телефон-->
-        <ul>
-            <li> <a href="maito:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111"> +38 096 111 11 11 </a></li>
+        <ul class="contacts list">
+            <li class="header-contact-item"><a class="header-contacts-link link" href="maito:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="header-contact-item"><a class="header-contacts-link link" href="tel:+380961111111"> +38 096 111 11 11 </a></li>
         </ul>
 
     </header>
     <!--Контент сайта-->
     <main>
         <!--Заказ услуг-->
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+        <section class="order-section">
+            <h1 class="order-section-name">Эффективные решения для вашего бизнеса</h1>
+            <button type="button" class="order-btn">Заказать услугу</button>
         </section>
         <!--Преимущества-->
-        <section>
+        <section class="benefits">
             <h2>Наши преимущества</h2>
-            <ul>
-                <li>
-                    <h3>Внимание к деталям</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <ul class="benefits-list list">
+                <li class="benefits-item">
+                    <h3 class="benefits-item-name">Внимание к деталям</h3>
+                    <p class="benefits-item-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li>
-                    <h3>Пунктуальность</h3>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                <li class="benefits-item">
+                    <h3 class="benefits-item-name">Пунктуальность</h3>
+                    <p class="benefits-item-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
-                    <h3>Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                <li class="benefits-item">
+                    <h3 class="benefits-item-name">Планирование</h3>
+                    <p class="benefits-item-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>
-                    <h3>Современные технологии</h3>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                <li class="benefits-item">
+                    <h3 class="benefits-item-name">Современные технологии</h3>
+                    <p class="benefits-item-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Чем мы занимаемся?</h2>
-            <ul>
-                <li><img src="./images/img1.jpg" alt="Вид занятия №1" width="370"> </li>
-                <li><img src="./images/img2.jpg" alt="Вид занятия №2" width="370"> </li>
-                <li><img src="./images/img3.jpg" alt="Вид занятия №3" width="370"> </li>
+        <section class="what-we-do">
+            <h2 class="what-we-do-title">Чем мы занимаемся?</h2>
+            <ul class="what-we-do-list list">
+                <li class="what-we-do-item"><img class="what-we-do-img" src="./images/img1.jpg" alt="Вид занятия №1" width="370"> </li>
+                <li class="what-we-do-item"><img class="what-we-do-img" src="./images/img2.jpg" alt="Вид занятия №2" width="370"> </li>
+                <li class="what-we-do-item"><img class="what-we-do-img" src="./images/img3.jpg" alt="Вид занятия №3" width="370"> </li>
             </ul>
         </section>
         <!--Наша команда-->
-        <section>
-            <h2>Наша команда</h2>
-            <ul>
-                <li> <img src="./images/img4.png" alt="Вид занятия №2" width="270">
-                    <h3>Игорь Демьяненко</h3>
-                    <p lang="en">Product Designer</p>
+        <section class="team">
+            <h2 class="our-team">Наша команда</h2>
+            <ul class="team-list list">
+                <li class="team-item"> <img class="team-item-img" src="./images/img4.png" alt="Представитель№1" width="270">
+                    <h3 class="team-item-name">Игорь Демьяненко</h3>
+                    <p class="team-item-text" lang="en">Product Designer</p>
                 </li>
-                <li><img src="./images/img5.jpg" alt="Вид занятия №2" width="270">
-                    <h3>Ольга Репина</h3>
-                    <p lang="en">Frontend Developer</p>
+                <li class="team-item"><img class="team-item-img" src="./images/img5.jpg" alt="Представитель№2" width="270">
+                    <h3 class="team-item-name">Ольга Репина</h3>
+                    <p class="team-item-text" lang="en">Frontend Developer</p>
                 </li>
-                <li> <img src="./images/img6.jpg" alt="Вид занятия №2" width="270">
-                    <h3>Николай Тарасов</h3>
-                    <p lang="en">Marketing</p>
+                <li class="team-item"> <img class="team-item-img" src="./images/img6.jpg" alt="Представитель№3" width="270">
+                    <h3 class="team-item-name">Николай Тарасов</h3>
+                    <p class="team-item-text" lang="en">Marketing</p>
                 </li>
-                <li><img src="./images/img7.jpg" alt="Вид занятия №2" width="270">
-                    <h3>Михаил Ермаков</h3>
-                    <p lang="en">UI Designer</p>
+                <li class="team-item"><img class="team-item-img" src="./images/img7.jpg" alt="Представитель№4" width="270">
+                    <h3 class="team-item-name">Михаил Ермаков</h3>
+                    <p class="team-item-text" lang="en">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
+    <footer class="page-footer">
         <!--Логотип-->
-        <a href="">WebStudio</a>
-        <address>
-            <p>Киев, пр-т Леси Украинки, 26</p>
-            <ul>
-                <li><a href="maito:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380991111111"> +38 099 111 11 11</a></li>
+        <a class="footer-logo link" href=""><span class="title-first-word">Web</span>Studio</a>
+        <address class="footer-address">
+            <p class="footer-street">Киев, пр-т Леси Украинки, 26</p>
+            <ul class="footer-list list">
+                <li class="footer-item"><a class="footer-contact-link link" href="maito:info@example.com">info@example.com</a></li>
+                <li class="footer-item"><a class="footer-contact-link link" href="tel:+380991111111"> +38 099 111 11 11</a></li>
             </ul>
         </address>
     </footer>

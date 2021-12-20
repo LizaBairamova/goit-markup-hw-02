@@ -1,3 +1,165 @@
 body {
   font-family: "Roboto", Roboto Slab;
 }
+:root{
+  --accent-color: #2196F3;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/*--Чтобы было видно белый текст--*/
+.order-section,
+.page-footer,
+.portfolio-footer{
+  background-color: grey;}
+/*---HEADER----*/
+ .header-link{
+  font-style: medium;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 2%;
+  color: black;
+}
+.header-link:hover,
+.header-link:focus,
+.header-contacts-link:hover,
+.header-contacts-link:focus{
+   color: var(--accent-color);
+}
+.header-logo{
+  color: #212121;
+  Font family: Raleway;
+  font-style: bold;
+  font-size: 26px;
+  line-height: 0,83;
+  letter-spacing: 3%;
+}
+.title-first-word{
+  color: #2196F3;
+  Font family: Raleway;
+  font-style: bold;
+  font-size: 26px;
+  line-height: 0,83;
+  letter-spacing: 3%;
+}
+.header-contacts-link{
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+/*--Основной контент основной страницы--*/
+.order-btn{
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+.order-section-name{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.benefits-item-name{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.benefits-item-text{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.what-we-do-title,
+.team-name{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-item-name{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121
+}
+.team-item-text{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*--Основной контент портфолио--*/
+.btn-name{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+.img-section-item-name{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.img-section-item-text{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575; 
+}
+/*--FOOTER--*/
+.footer-contact-link:hover,
+.footer-contact-link:focus{
+   color: var(--accent-color);
+}
+.footer-logo{
+  color: #212121;
+  Font family: Raleway;
+  font-style: bold;
+  font-size: 26px;
+  line-height: 0,83;
+  letter-spacing: 3%;
+}
+.footer-contact-link{
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.footer-street{ 
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;}
