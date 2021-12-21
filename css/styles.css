@@ -10,18 +10,20 @@ body {
 .link {
   text-decoration: none;
 }
-/*--Чтобы было видно белый текст--*/
-.order-section,
-.page-footer,
-.portfolio-footer{
-  background-color: grey;}
+
 /*---HEADER----*/
+.page-header{
+  background-color: #FFFFFF;
+}
  .header-link{
   font-style: medium;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 2%;
   color: black;
+}
+.curent{
+  color: var(--accent-color);
 }
 .header-link:hover,
 .header-link:focus,
@@ -55,13 +57,23 @@ body {
 }
 
 /*--Основной контент основной страницы--*/
+.order-section{
+  background-color: #2F303A;
+}
 .order-btn{
+  background:#188CE8 ;
   font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #FFFFFF;
+  text-align: center;
+  align-items: center;
+}
+.order-btn:hover,
+.order-btn:focus{
+  color: #757575;
 }
 .order-section-name{
   font-weight: 900;
@@ -102,8 +114,8 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121
-}
+  color: #212121}
+
 .team-item-text{
   font-weight: normal;
   font-size: 16px;
@@ -121,6 +133,21 @@ body {
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
+.active-btn-name{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  background-color: var(--accent-color);
+}
+.active-btn-name:hover,
+.active-btn-name:focus,
+.btn-name:hover,
+.btn-name:focus{
+  background-color: var(--accent-color);
+}
 .img-section-item-name{
   font-weight: bold;
   font-size: 18px;
@@ -136,6 +163,10 @@ body {
   color: #757575; 
 }
 /*--FOOTER--*/
+.page-footer,
+.portfolio-footer{
+  background-color: #2F303A;
+}
 .footer-contact-link:hover,
 .footer-contact-link:focus{
    color: var(--accent-color);
