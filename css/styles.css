@@ -20,10 +20,10 @@ body {
   background-color: var(--main-text-color);
 }
 .header-link {
-  font-style: medium;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 2%;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: var(--second-main-color);
 }
 .curent {
@@ -53,7 +53,6 @@ body {
 }
 .header-contacts-link {
   font-weight: 500;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -80,7 +79,7 @@ body {
   background-color: #188ce8;
 }
 .team {
-  background-color: #e5e5e5;
+  background-color: #f5f4fa;
 }
 .order-section-name {
   font-weight: 900;
@@ -157,6 +156,7 @@ body {
 .btn-name:hover,
 .btn-name:focus {
   background-color: var(--accent-color);
+  color: var(--main-text-color);
 }
 .img-section-item-name {
   font-weight: bold;
